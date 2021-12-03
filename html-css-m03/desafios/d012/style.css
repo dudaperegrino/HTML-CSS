@@ -1,4 +1,7 @@
 @charset "UTF-8";
+:root {
+    --fonte-poema: 'SweetPoems';
+}
 header {
     position: relative;
     background-color: black;
@@ -18,6 +21,19 @@ header h1 {
 }
 header p {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    
+    text-align: center; 
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header a:hover {
+    text-decoration: under;
+}
+.poemasemimg{
+    font-size: 4.5em;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: var(--fonte-poema);
 }
